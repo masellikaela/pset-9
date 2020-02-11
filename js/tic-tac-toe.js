@@ -1,8 +1,4 @@
 ///////////////////// CONSTANTS /////////////////////////////////////
-
-
-const squares = Array.from(document.querySelectorAll("#board div"));
-
 const winningConditions = [
   [0, 1, 2],
   [3, 4, 5],
@@ -12,18 +8,25 @@ const winningConditions = [
   [2, 5, 8],
   [0, 4, 8],
   [2, 4, 6]
-];
+]
 ///////////////////// APP STATE (VARIABLES) /////////////////////////
 let board;
 let turn;
 let win;
+let keepScoreX = 0;
+let keepScoreO = 0;
 
 ///////////////////// CACHED ELEMENT REFERENCES /////////////////////
+const squares = Array.from(document.querySelectorAll("#board div"));
 const message = document.querySelector("h2");
+
 ///////////////////// EVENT LISTENERS ///////////////////////////////
 window.onload = init;
 document.getElementById("board").onclick = takeTurn;
 document.getElementById("reset-button").onclick = init;
+document.getElementById('ButtonX').onclick = firstX;
+document.getElementById('ButtonO').onclick = firstO;
+
 ///////////////////// FUNCTIONS /////////////////////////////////////
 function init() {
   board = [
@@ -32,8 +35,19 @@ function init() {
     "", "", ""
   ];
   turn = "X";
+  win = null;
 
   render();
+}
+
+function firstX() {
+  document.getElementById('turnButton').innerHTML = "Turn: X";
+  turn = "X";
+}
+
+function firstO() {
+  document.getElementById('turnButton').innerHTML = "Turn: O";
+  turn = "O";
 }
 
 function render() {
@@ -61,18 +75,6 @@ function takeTurn(e) {
   }
 }
 
-function init() {
-  board = [
-    "", "", "",
-    "", "", "",
-    "", "", ""
-  ];
-  turn = "X";
-  win = null;
-
-  render();
-}
-
 function getWinner() {
   let winner = null;
 
@@ -85,6 +87,14 @@ function getWinner() {
       winner = board[condition[0]];
     }
   });
+
+  if (winner === "X") {
+    keepScoreX++;
+    document.getElementById('ScoreX').innerHTML = keepScoreX;
+  } else if (winner === "O") {
+    keepScoreO++;
+    document.getElementById('ScoreO').innerHTML = keepScoreO;
+  }
 
   return winner ? winner : board.includes("") ? null : "T";
 }
