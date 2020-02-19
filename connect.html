@@ -12,5 +12,55 @@
 			<a href="connect.html">Connect 4</a>
 			<a href="breaker.html">Breaker</a>
 		</div>
-	</body>
+
+		<div class="status">
+			<p>Current game position: <a id="gameSolver" target="_blank" href="http://connect4.gamesolver.org/?pos="><span id="position"></span></a></p>
+				<p id="message">Yellow's turn</p>
+			</div>
+			<div class="solution">
+				<p id="result">Solution goes here.</p>
+			</div>
+			<div class="main">
+				<noscript>Your JavaScript is turned off. Please turn it on in order to interact with the Connect Four web UI.</noscript>
+				<canvas id="game" onmousedown="mouseClick(event);">The HTML5 canvas element is unsupported in your web browser!</canvas>
+			</div>
+			<div class="userInterface">
+				<input id="autoplayMode" type="checkbox" onclick="ui.toggleAutoplay();" checked="checked"/>Enable autoplay mode
+				<div class="autoplay">
+					<br/>
+					<label id="autoplayMessage" for="moves">Play a recorded move sequence.</label>
+					<br/>
+					<input class="disabler" type="text" id="moves"/>
+					<input class="disabler" type="button" value="Play" onclick="playSequence(document.getElementsByClassName('disabler')[0].value);"/>
+					<input class="disabler" type="button" value="Settings" onclick="ui.showAndHideSettings();"/>
+				</div>
+				<div class="settings">
+					<div class="labels">
+						<label for="speed"><br/>Autoplay speed</label>
+						<label for="width"><br/>Board width</label>
+						<label for="height"><br/>Board height</label>
+						<label for="size"><br/>Disc size</label>
+					</div>
+					<div class="values">
+						<br/>
+						<input class="values" type="number" id="speed" min="1" max="5"/>
+						<br/>
+						<input class="values" type="number" id="width" min="4" max="9"/>
+						<br/>
+						<input class="values" type="number" id="height" min="4" max="9"/>
+						<br/>
+						<input class="values" type="number" id="size" min="1" max="10"/>
+						<br/>
+					</div>
+				</div>
+				<div class="settingsButtons">
+					<br/>
+					<input type="button" value="Save" onclick="ui.save();"/>
+					<input type="reset" onclick="ui.resetPrevious();"/>
+			</div>
+		</body>
+	</html>
+
+
+
 </html>
