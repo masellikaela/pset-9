@@ -56,12 +56,12 @@ h2 {
 }
 
 .square:hover {
-  background-color:#ff05f7;
+  background-color:lightblue;
   cursor: pointer;
 }
 
 #reset-button {
-  background-color: #26ff05;
+  background-color: pink;
   border: 1px solid black;
   color: "white";
   font-size: 21px;
@@ -72,7 +72,7 @@ h2 {
 }
 
 #reset-button:hover {
-  background-color: #ff05f7;
+  background-color: lightblue;
   color: "white";
   cursor: pointer;
 }
@@ -80,7 +80,7 @@ h2 {
 table {
   border-collapse: separate;
   border-spacing: 75px 0;
-  color: #26ff05;
+  color: lightblue;
 }
 
 td {
@@ -91,11 +91,10 @@ button {
   font-size: 30px;
   padding: 10px;
   border-radius: 12px;
-  background-color: #26ff05;
 }
 
 button:hover {
   background-color:#26ff05;
-  color: #ff05f7;
+  color: lightblue;
   cursor: pointer;
 }

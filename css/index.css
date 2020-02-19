@@ -81,6 +81,11 @@ h2 {
   padding: 2%;
 }
 
+.captions a{
+  padding: 8%;
+  text-decoration: none;
+}
+
 table {
   border-collapse: separate;
   border-spacing: 75px 0;
