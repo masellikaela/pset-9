@@ -1,41 +1,112 @@
+*{
+  font-family: "Verdana";
+}
+
 body {
-	padding: 0px;
-	margin: 0px;
-	text-align: center;
+  text-align: center;
   font-family: "Verdana", monospace;
-}
-
-.status {
-	font-family: "Verdana";
-	font-size: 16pt;
-	padding: 10px 10px;
-}
-
-#gameSolver {
-	text-decoration: none;
-	color: black;
-}
-
-#moves {
-	width: 400px;
-}
-
-.values {
-	width: 32px;
-}
-
-.settings {
-	display: none;
-}
-
-.settingButtons {
-	display: none;
-}
-
-.settings .labels {
-	margin: 5px;
+  background: "black";
+  color: "white";
 }
 
 .header a {
   padding: 2%;
+}
+
+h1 {
+  margin: 0 auto;
+  font-family: "Times New Roman", monospace;
+  font-size: 50px;
+  margin: 2%;
+  color: "white";
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0.5%;
+  border-style: fill;
+  padding: 10px;
+  background-color:"black";
+  color: "white";
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: "black";
+}
+
+.column {
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+
+.wrap {
+  flex-wrap: wrap;
+  height: 612px;
+  width: 714px;
+}
+
+.square {
+  border: 1px solid rgba(0, 0, 0, 0.75);
+  font-size: 96px;
+  height: 100px;
+  line-height: 150px;
+  user-select: none;
+  width: 100px;
+}
+
+.square:hover {
+  background-color:lightblue;
+  cursor: pointer;
+}
+
+#reset-button {
+  background-color: pink;
+  border: 1px solid black;
+  color: "white";
+  font-size: 21px;
+  line-height: 55px;
+  margin: 1%;
+  text-align: center;
+  width: 456px;
+}
+
+#reset-button:hover {
+  background-color: lightblue;
+  color: "white";
+  cursor: pointer;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 75px 0;
+  color: lightblue;
+}
+
+td {
+  padding: 10px 0;
+}
+
+button {
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+button:hover {
+  background-color:#26ff05;
+  color: lightblue;
+  cursor: pointer;
+}
+
+.red {
+	background-color: red;
+}
+
+.yellow {
+	background-color: yellow;
 }

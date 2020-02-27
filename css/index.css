@@ -17,6 +17,12 @@ h1 {
   color: "white";
 }
 
+img {
+border-width: thick;
+border-style: solid;
+border-color: lightblue;
+}
+
 h2 {
   font-size: 25px;
   font-weight: bold;
