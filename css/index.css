@@ -1,3 +1,78 @@
+.topnav {
+  background-color: lightblue;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: lightblue;
+  color: black;
+}
+
+.topnav a.active {
+  background-color:pink;
+}
+body {
+  text-align: center;
+}
+
+h1 {
+  margin: 0 auto;
+  font-size: 85px;
+  margin: 2%;
+}
+h3{
+    margin: 0 auto;
+    font-family: "arcade", monospace;
+    font-size: 40px;
+    margin: 2%;
+}
+
+body {
+  text-align: center;
+}
+
+h1{
+  color: white;
+    margin: 0 auto;
+    font-size: 90px;
+    margin: 2%;
+}
+
+header{
+background: lightblue;
+}
+.topnav {
+  background-color: pink;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: lightgrey;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: pink;
+  color: black;
+}
+
+.topnav a.active {
+  background-color:lightblue;
+  color: black;
+}
 a {
   text-align: center;
   font-family: "Verdana", monospace;
