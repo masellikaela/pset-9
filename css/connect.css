@@ -1,44 +1,35 @@
 .topnav {
-  background-color: #460F55;
+  background-color: lightblue;
   overflow: hidden;
 }
 
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: lightgray;
   text-align: center;
-  padding: 14px 16px;
+  padding: 12px 14px;
   text-decoration: none;
   font-size: 17px;
 }
 
 .topnav a:hover {
-  background-color: #FFD3FF;
+  background-color: lightblue;
   color: black;
 }
 
 .topnav a.active {
-  background-color:#AF127B;
-  color: white;
+  background-color:pink;
 }
 body {
-  background-image: url(https://motionarray.imgix.net/preview-143179-ClMb14CISB-high_0000.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
   text-align: center;
-  text-align: center;
-  font-family: "Arcade", monospace;
 }
 
 h1 {
-color: #FFFFFF;
   margin: 0 auto;
-  font-family: "Arcade", monospace;
-  font-size: 90px;
+  font-size: 85px;
   margin: 2%;
 }
 h3{
-  color: #FFFFFF;
     margin: 0 auto;
     font-family: "arcade", monospace;
     font-size: 40px;
@@ -50,16 +41,15 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color:green;
+  background-color:lightblue;
 }
 
 li {
-  float: left;
+  float: center;
 }
 
 li a {
   display: block;
-  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -135,7 +125,7 @@ align-items: center;
 }
 
 #board {
-  background-color:#FFE3FF;
+  background-color:white;
   display: inline-block;
   vertical-align: middle;
   line-height: 123px;
@@ -144,16 +134,15 @@ border-radius: 20px;
 }
 
 #yellowFirst {
-  background-color: #f5ef38;
+  background-color: lightgray;
 }
 
 #redFirst {
-  background-color: #ed3b3b;
+  background-color: pink;
 }
 
 #reset-button {
-  background-color: #AB1177;
-  border: 10px solid white;
+  background-color: lightblue;
   color: white;
   font-size: 21px;
   line-height: 55px;
@@ -172,9 +161,8 @@ border-radius: 30%;
 }
 
 #turn {
-  color: #FFFFFF;
+  color: white;
     margin: 0 auto;
-    font-family: "arcade", monospace;
     font-size: 30px;
     margin: 2%;
 }
