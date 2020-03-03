@@ -1,35 +1,44 @@
 .topnav {
-  background-color: lightblue;
+  background-color: #460F55;
   overflow: hidden;
 }
 
 .topnav a {
   float: left;
-  color: black;
+  color: #f2f2f2;
   text-align: center;
-  padding: 12px 14px;
+  padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
 }
 
 .topnav a:hover {
-  background-color: lightblue;
+  background-color: #FFD3FF;
   color: black;
 }
 
 .topnav a.active {
-  background-color:pink;
+  background-color:#AF127B;
+  color: white;
 }
 body {
+  background-image: url(https://motionarray.imgix.net/preview-143179-ClMb14CISB-high_0000.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
+  text-align: center;
+  font-family: "Arcade", monospace;
 }
 
 h1 {
+color: #FFFFFF;
   margin: 0 auto;
-  font-size: 85px;
+  font-family: "Arcade", monospace;
+  font-size: 90px;
   margin: 2%;
 }
 h3{
+  color: #FFFFFF;
     margin: 0 auto;
     font-family: "arcade", monospace;
     font-size: 40px;
@@ -41,15 +50,16 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color:lightblue;
+  background-color:green;
 }
 
 li {
-  float: center;
+  float: left;
 }
 
 li a {
   display: block;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -125,7 +135,7 @@ align-items: center;
 }
 
 #board {
-  background-color:white;
+  background-color:#FFE3FF;
   display: inline-block;
   vertical-align: middle;
   line-height: 123px;
@@ -142,7 +152,8 @@ border-radius: 20px;
 }
 
 #reset-button {
-  background-color: lightblue;
+  background-color: #AB1177;
+  border: 10px solid white;
   color: white;
   font-size: 21px;
   line-height: 55px;
@@ -161,8 +172,9 @@ border-radius: 30%;
 }
 
 #turn {
-  color: white;
+  color: #FFFFFF;
     margin: 0 auto;
+    font-family: "arcade", monospace;
     font-size: 30px;
     margin: 2%;
 }
