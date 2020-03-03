@@ -1,6 +1,6 @@
 a {
   text-align: center;
-  font-family: "Roboto", monospace;
+  font-family: "Times New Roman", monospace;
   font-size: 30px;
   padding: 125px;
   color: white;
@@ -9,31 +9,30 @@ a {
 h1{
   font-size: 200px;
   text-align: center;
-  font-family: "arcade", cursive, sans-serif;
+  font-family: "Times New Roman", cursive, sans-serif;
   color: white;
 }
 
 body {
-  background-image: url(https://motionarray.imgix.net/preview-143179-ClMb14CISB-high_0000.jpg);
-  background-repeat: no-repeat;
+  background-color: #dd59;
   background-size: cover;
 }
 
 p {
   font-size: 50px;
   text-align: center;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: "Times New Roman", cursive, sans-serif;
   color: white;
 }
 
 #message {
   font-size: 50px;
   text-align: center;
-  font-family: "arcade", cursive, sans-serif;
+  font-family: "Times New Roman", cursive, sans-serif;
 }
 
 .topnav {
-  background-color: #460F55;
+  background-color: 85a330;
   overflow: hidden;
 }
 
@@ -47,11 +46,11 @@ p {
 }
 
 .topnav a:hover {
-  background-color: #FFD3FF;
+  background-color: #bfffc0;
   color: black;
 }
 
 .topnav a.active {
-  background-color:#AF127B;
-  color: white;
+  background-color:#bfffc0;
+  color: black;
 }
