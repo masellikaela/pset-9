@@ -1,111 +1,45 @@
-.topnav {
-  background-color: lightblue;
-  overflow: hidden;
-}
-
-.topnav a {
-  float: left;
-  color: black;
-  text-align: center;
-  padding: 12px 14px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: lightblue;
-  color: black;
-}
-
-.topnav a.active {
-  background-color:pink;
-}
-body {
-  text-align: center;
-}
-
-h1 {
-  margin: 0 auto;
-  font-size: 85px;
-  margin: 2%;
-}
-h3{
-    margin: 0 auto;
-    font-family: "arcade", monospace;
-    font-size: 40px;
-    margin: 2%;
-}
-
-body {
-  text-align: center;
-}
-
-h1{
-  color: white;
-    margin: 0 auto;
-    font-size: 90px;
-    margin: 2%;
-}
-
-header{
-background: lightblue;
-}
-.topnav {
-  background-color: pink;
-  overflow: hidden;
-}
-
-.topnav a {
-  float: left;
-  color: lightgrey;
-  text-align: center;
-  padding: 12px 14px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: pink;
-  color: black;
-}
-
-.topnav a.active {
-  background-color:lightblue;
-  color: black;
-}
 a {
   text-align: center;
-  font-family: "Verdana", monospace;
-  font-size: 28px;
-  padding: 110px;
-  color: black;
+  font-family: "Roboto", monospace;
+  font-size: 30px;
+  padding: 125px;
+  color: white;
 }
 
 h1{
-  font-size: 100px;
+  font-size: 200px;
   text-align: center;
-  color: black;
+  font-family: "arcade", cursive, sans-serif;
+  color: white;
+}
+
+body {
+  background-image: url(https://motionarray.imgix.net/preview-143179-ClMb14CISB-high_0000.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 p {
-  font-size: 47px;
+  font-size: 50px;
   text-align: center;
-  font-family: "Verdana", cursive, sans-serif;
-  color: black;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: white;
 }
 
 #message {
-  font-size: 47px;
+  font-size: 50px;
   text-align: center;
+  font-family: "arcade", cursive, sans-serif;
 }
 
 .topnav {
-  background-color: lightblue;
+  background-color: #460F55;
   overflow: hidden;
 }
 
 .topnav a {
-  color: pink
+  float: left;
+  color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -113,11 +47,11 @@ p {
 }
 
 .topnav a:hover {
-  background-color: lightgray;
+  background-color: #FFD3FF;
   color: black;
 }
 
 .topnav a.active {
-  background-color:pink;
-  color: black;
+  background-color:#AF127B;
+  color: white;
 }
