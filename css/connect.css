@@ -5,7 +5,7 @@
 
 .topnav a {
   float: left;
-  color: lightgray;
+  color: black;
   text-align: center;
   padding: 12px 14px;
   text-decoration: none;
@@ -134,11 +134,11 @@ border-radius: 20px;
 }
 
 #yellowFirst {
-  background-color: lightgray;
+  background-color: #f5ef38;
 }
 
 #redFirst {
-  background-color: pink;
+  background-color: #ed3b3b;
 }
 
 #reset-button {
