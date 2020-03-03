@@ -1,14 +1,12 @@
 body {
   text-align: center;
-  font-family: "Ariel", monospace;
-  background-image: url(https://motionarray.imgix.net/preview-143179-ClMb14CISB-high_0000.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  font-family: "Times New Roman", monospace;
+  background-color: #ddf5f9;
 }
 
 h1 {
   margin: 0 auto;
-  font-family: "Arcade", monospace;
+  font-family: "Times New Roman", monospace;
   font-size: 90px;
   margin: 2%;
   color: white;
@@ -20,7 +18,7 @@ h2 {
   margin: 0.5%;
   border-style: dotted;
   padding: 10px;
-  background-color:	#280226;
+  background-color:	#023a09;
   color: white;
 }
 
@@ -28,7 +26,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #D0CCCD
+  color: #afd0b8
 
 }
 
@@ -54,12 +52,12 @@ h2 {
 }
 
 .square:hover {
-  background-color:	#8E0967;
+  background-color:	#098e19;
   cursor: pointer;
 }
 
 #reset-button {
-  background-color: #DEDBD7;
+  background-color: #afd068;
   border: 1px solid black;
   color: black;
   font-size: 21px;
@@ -70,7 +68,7 @@ h2 {
 }
 
 #reset-button:hover {
-  background-color: 	#8E0967;
+  background-color: #098e19;
   color: white;
   cursor: pointer;
 }
@@ -78,7 +76,7 @@ h2 {
 table {
   border-collapse: separate;
   border-spacing: 75px 0;
-  color: #DEDBD7
+  color: #afd068
 }
 
 td {
@@ -89,16 +87,16 @@ button {
   font-size: 30px;
   padding: 10px;
   border-radius: 12px;
-  background-color: #DEDBD7
+  background-color: #afd068
 }
 
 button:hover {
-  background-color:	#8E0967;
+  background-color:	#098e19;
   color: white;
   cursor: pointer;
 }
 .topnav {
-  background-color: #460F55;
+  background-color: #85a330;
   overflow: hidden;
 }
 
@@ -112,11 +110,11 @@ button:hover {
 }
 
 .topnav a:hover {
-  background-color: #FFD3FF;
+  background-color: #bfffc0;
   color: black;
 }
 
 .topnav a.active {
-  background-color:#AF127B;
-  color: white;
+  background-color:#bfffc0;
+  color: black;
 }
