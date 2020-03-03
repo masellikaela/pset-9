@@ -1,28 +1,34 @@
 body {
   text-align: center;
-  font-family: "Verdana", monospace;
+  font-family: "Ariel", monospace;
+  background-image: url(https://motionarray.imgix.net/preview-143179-ClMb14CISB-high_0000.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
   margin: 0 auto;
-  font-size: 70px;
+  font-family: "Arcade", monospace;
+  font-size: 90px;
   margin: 2%;
-  color: black;
+  color: white;
 }
 
 h2 {
-  font-size: 15px;
+  font-size: 25px;
   font-weight: bold;
   margin: 0.5%;
-  padding: 5px;
-  background-color:	lightblue;
+  border-style: dotted;
+  padding: 10px;
+  background-color:	#280226;
+  color: white;
 }
 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  color:pink
+  color: #D0CCCD
 
 }
 
@@ -48,16 +54,16 @@ h2 {
 }
 
 .square:hover {
-  background-color:	lightblue;
+  background-color:	#8E0967;
   cursor: pointer;
 }
 
 #reset-button {
-  background-color:pink;
+  background-color: #DEDBD7;
   border: 1px solid black;
   color: black;
-  font-size: 18px;
-  line-height: 43px;
+  font-size: 21px;
+  line-height: 55px;
   margin: 1%;
   text-align: center;
   width: 456px;
@@ -106,11 +112,11 @@ button:hover {
 }
 
 .topnav a:hover {
-  background-color: lightblue;
+  background-color: #FFD3FF;
   color: black;
 }
 
 .topnav a.active {
-  background-color:grey;
+  background-color:#AF127B;
   color: white;
 }
