@@ -1,5 +1,5 @@
 .topnav {
-  background-color: #460F55;
+  background-color: #f2f2f2;
   overflow: hidden;
 }
 
@@ -13,34 +13,31 @@
 }
 
 .topnav a:hover {
-  background-color: #FFD3FF;
+  background-color: #bfffc0;
   color: black;
 }
 
 .topnav a.active {
-  background-color:#AF127B;
-  color: white;
+  background-color:#bfffc0;
+  color: black;
 }
 body {
-  background-image: url(https://motionarray.imgix.net/preview-143179-ClMb14CISB-high_0000.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+ background-color: #ddf5f9;
   text-align: center;
-  text-align: center;
-  font-family: "Arcade", monospace;
+  font-family: "Times New Roman", monospace;
 }
 
 h1 {
 color: #FFFFFF;
   margin: 0 auto;
-  font-family: "Arcade", monospace;
+  font-family: "Times New Roman", monospace;
   font-size: 90px;
   margin: 2%;
 }
 h3{
   color: #FFFFFF;
     margin: 0 auto;
-    font-family: "arcade", monospace;
+    font-family: "Times New Roman", monospace;
     font-size: 40px;
     margin: 2%;
 }
@@ -68,7 +65,7 @@ li a {
 .dot {
   height: 100px;
   width: 100px;
-  background-color: #bbb;
+  background-color: #3D6B3B;
   border-radius: 50%;
   display: inline-block;
   line-height: 175px;
@@ -135,7 +132,7 @@ align-items: center;
 }
 
 #board {
-  background-color:#FFE3FF;
+  background-color:#daeca8;
   display: inline-block;
   vertical-align: middle;
   line-height: 123px;
@@ -174,7 +171,7 @@ border-radius: 30%;
 #turn {
   color: #FFFFFF;
     margin: 0 auto;
-    font-family: "arcade", monospace;
+    font-family: "Times New Roman", monospace;
     font-size: 30px;
     margin: 2%;
 }
