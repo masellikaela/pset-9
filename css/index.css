@@ -1,45 +1,36 @@
 a {
   text-align: center;
-  font-family: "Roboto", monospace;
-  font-size: 30px;
-  padding: 125px;
-  color: white;
+  font-family: "Verdana", monospace;
+  font-size: 28px;
+  padding: 110px;
+  color: black;
 }
 
 h1{
-  font-size: 200px;
+  font-size: 100px;
   text-align: center;
-  font-family: "arcade", cursive, sans-serif;
-  color: white;
-}
-
-body {
-  background-image: url(https://motionarray.imgix.net/preview-143179-ClMb14CISB-high_0000.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  color: black;
 }
 
 p {
-  font-size: 50px;
+  font-size: 47px;
   text-align: center;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  color: white;
+  font-family: "Verdana", cursive, sans-serif;
+  color: black;
 }
 
 #message {
-  font-size: 50px;
+  font-size: 47px;
   text-align: center;
-  font-family: "arcade", cursive, sans-serif;
 }
 
 .topnav {
-  background-color: #460F55;
+  background-color: lightblue;
   overflow: hidden;
 }
 
 .topnav a {
-  float: left;
-  color: #f2f2f2;
+  color: pink
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -47,11 +38,11 @@ p {
 }
 
 .topnav a:hover {
-  background-color: #FFD3FF;
+  background-color: lightgray;
   color: black;
 }
 
 .topnav a.active {
-  background-color:#AF127B;
-  color: white;
+  background-color:pink;
+  color: black;
 }
