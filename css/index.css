@@ -1,116 +1,57 @@
-*{
-  font-family: "Verdana";
+a {
+  text-align: center;
+  font-family: "Roboto", monospace;
+  font-size: 30px;
+  padding: 125px;
+  color: white;
+}
+
+h1{
+  font-size: 200px;
+  text-align: center;
+  font-family: "arcade", cursive, sans-serif;
+  color: white;
 }
 
 body {
-  text-align: center;
-  font-family: "Verdana", monospace;
-  background: "black";
-  color: "white";
+  background-image: url(https://motionarray.imgix.net/preview-143179-ClMb14CISB-high_0000.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-h1 {
-  margin: 0 auto;
-  font-family: "Times New Roman", monospace;
+p {
   font-size: 50px;
-  margin: 2%;
-  color: "white";
-}
-
-img {
-border-width: thick;
-border-style: solid;
-border-color: lightblue;
-}
-
-h2 {
-  font-size: 25px;
-  font-weight: bold;
-  margin: 0.5%;
-  border-style: fill;
-  padding: 10px;
-  background-color:"black";
-  color: "white";
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: "black";
-}
-
-.column {
-  height: 100%;
-  width: 100%;
-  flex-direction: column;
-}
-
-.wrap {
-  flex-wrap: wrap;
-  height: 456px;
-  width: 456px;
-}
-
-.square {
-  border: 1px solid rgba(0, 0, 0, 0.75);
-  font-size: 96px;
-  height: 150px;
-  line-height: 150px;
-  user-select: none;
-  width: 150px;
-}
-
-.square:hover {
-  background-color:#ff05f7;
-  cursor: pointer;
-}
-
-#reset-button {
-  background-color: #26ff05;
-  border: 1px solid black;
-  color: "white";
-  font-size: 21px;
-  line-height: 55px;
-  margin: 1%;
   text-align: center;
-  width: 456px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: white;
 }
 
-#reset-button:hover {
-  background-color: #ff05f7;
-  color: "white";
-  cursor: pointer;
+#message {
+  font-size: 50px;
+  text-align: center;
+  font-family: "arcade", cursive, sans-serif;
 }
 
-.header a {
-  padding: 2%;
+.topnav {
+  background-color: #460F55;
+  overflow: hidden;
 }
 
-.captions a{
-  padding: 8%;
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
+  font-size: 17px;
 }
 
-table {
-  border-collapse: separate;
-  border-spacing: 75px 0;
-  color: #26ff05;
+.topnav a:hover {
+  background-color: #FFD3FF;
+  color: black;
 }
 
-td {
-  padding: 10px 0;
-}
-
-button {
-  font-size: 30px;
-  padding: 10px;
-  border-radius: 12px;
-  background-color: #26ff05;
-}
-
-button:hover {
-  background-color:#26ff05;
-  color: #ff05f7;
-  cursor: pointer;
+.topnav a.active {
+  background-color:#AF127B;
+  color: white;
 }
