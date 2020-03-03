@@ -1,75 +1,41 @@
-.topnav {
-  background-color: lightblue;
-  overflow: hidden;
-}
-
-.topnav a {
-  float: left;
-  color: black;
-  text-align: center;
-  padding: 12px 14px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: lightblue;
-  color: black;
-}
-
-.topnav a.active {
-  background-color:pink;
-}
 body {
-  text-align: center;
-}
-
-h1 {
-  margin: 0 auto;
-  font-size: 85px;
-  margin: 2%;
-}
-h3{
-    margin: 0 auto;
-    font-family: "arcade", monospace;
-    font-size: 40px;
-    margin: 2%;
-}
-
-body {
+  background-image: url(https://motionarray.imgix.net/preview-143179-ClMb14CISB-high_0000.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
 }
 
 h1{
-  color: white;
+  color: #FFFFFF;
     margin: 0 auto;
+    font-family: "Arcade", monospace;
     font-size: 90px;
     margin: 2%;
 }
 
 header{
-background: lightblue;
+background: #303030;
 }
 .topnav {
-  background-color: pink;
+  background-color: #460F55;
   overflow: hidden;
 }
 
 .topnav a {
   float: left;
-  color: lightgrey;
+  color: #f2f2f2;
   text-align: center;
-  padding: 12px 14px;
+  padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
 }
 
 .topnav a:hover {
-  background-color: pink;
+  background-color: #FFD3FF;
   color: black;
 }
 
 .topnav a.active {
-  background-color:lightblue;
-  color: black;
+  background-color:#AF127B;
+  color: white;
 }
