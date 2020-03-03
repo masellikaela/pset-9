@@ -1,23 +1,22 @@
 body {
-  background-image: url(https://motionarray.imgix.net/preview-143179-ClMb14CISB-high_0000.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: black;
   text-align: center;
 }
 
 h1{
   color: #FFFFFF;
     margin: 0 auto;
-    font-family: "Arcade", monospace;
+    font-family: "Times New Roman", monospace;
     font-size: 90px;
     margin: 2%;
 }
 
 header{
-background: #303030;
+background: #3d6b3b;
+  
 }
 .topnav {
-  background-color: #460F55;
+  background-color: #85a330;
   overflow: hidden;
 }
 
@@ -31,11 +30,11 @@ background: #303030;
 }
 
 .topnav a:hover {
-  background-color: #FFD3FF;
+  background-color: #bfffc0;
   color: black;
 }
 
 .topnav a.active {
-  background-color:#AF127B;
-  color: white;
+  background-color:#bfffc0;
+  color: black;
 }
