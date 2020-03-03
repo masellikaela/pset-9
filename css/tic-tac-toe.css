@@ -1,41 +1,35 @@
-*{
-  font-family: "Verdana";
-}
-
 body {
   text-align: center;
-  font-family: "Verdana", monospace;
-  background: "black";
-  color: "white";
-}
-
-.header a {
-  padding: 2%;
+  font-family: "Ariel", monospace;
+  background-image: url(https://motionarray.imgix.net/preview-143179-ClMb14CISB-high_0000.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
   margin: 0 auto;
-  font-family: "Times New Roman", monospace;
-  font-size: 50px;
+  font-family: "Arcade", monospace;
+  font-size: 90px;
   margin: 2%;
-  color: "white";
+  color: white;
 }
 
 h2 {
   font-size: 25px;
   font-weight: bold;
   margin: 0.5%;
-  border-style: fill;
+  border-style: dotted;
   padding: 10px;
-  background-color:"black";
-  color: "white";
+  background-color:	#280226;
+  color: white;
 }
 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: "black";
+  color: #D0CCCD
+
 }
 
 .column {
@@ -60,14 +54,14 @@ h2 {
 }
 
 .square:hover {
-  background-color:lightblue;
+  background-color:	#8E0967;
   cursor: pointer;
 }
 
 #reset-button {
-  background-color: pink;
+  background-color: #DEDBD7;
   border: 1px solid black;
-  color: "white";
+  color: black;
   font-size: 21px;
   line-height: 55px;
   margin: 1%;
@@ -76,15 +70,15 @@ h2 {
 }
 
 #reset-button:hover {
-  background-color: lightblue;
-  color: "white";
+  background-color: 	#8E0967;
+  color: white;
   cursor: pointer;
 }
 
 table {
   border-collapse: separate;
   border-spacing: 75px 0;
-  color: lightblue;
+  color: #DEDBD7
 }
 
 td {
@@ -95,10 +89,34 @@ button {
   font-size: 30px;
   padding: 10px;
   border-radius: 12px;
+  background-color: #DEDBD7
 }
 
 button:hover {
-  background-color:#26ff05;
-  color: lightblue;
+  background-color:	#8E0967;
+  color: white;
   cursor: pointer;
+}
+.topnav {
+  background-color: #460F55;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #FFD3FF;
+  color: black;
+}
+
+.topnav a.active {
+  background-color:#AF127B;
+  color: white;
 }
