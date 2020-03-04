@@ -149,7 +149,7 @@ border-radius: 20px;
 }
 
 #reset-button {
-  background-color: #AB1177;
+  background-color: #afd068;
   border: 10px solid white;
   color: white;
   font-size: 21px;
@@ -163,8 +163,8 @@ border-radius: 30%;
 }
 
 #reset-button:hover {
-  background-color: white;
-  color: black;
+  background-color: #098e19;
+  color: white;
   cursor: pointer;
 }
 
