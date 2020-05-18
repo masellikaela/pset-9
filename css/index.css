@@ -1,6 +1,6 @@
 .center {
   text-align: center;
-  margin-left: 150px;
+  margin-left: auto;
   padding: 3px;
 }
 
@@ -19,8 +19,8 @@ h1{
 }
 
 h2{
- font-size: 45px;
-  margin-left: 250px;
+ font-size: 35px;
+  margin-left: 125px;
   color:  white; 
 }
 
@@ -51,7 +51,6 @@ p {
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
 }
