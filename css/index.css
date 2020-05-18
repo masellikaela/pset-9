@@ -1,17 +1,15 @@
 .center {
   text-align: center;
-  margin: auto;
+  margin-left: 500px;
+  margin-right: 500px;
+  padding: 3px;
 }
 
-img{
-  padding: 2px;
-}
 
 a {
   text-align: center;
   font-family: "Times New Roman", monospace;
   font-size: 30px;
-  padding: 125px;
   color: white;
 }
 
