@@ -1,7 +1,10 @@
 .center {
   text-align: center;
   margin: auto;
-  padding: 5px
+}
+
+img{
+  padding: 2px;
 }
 
 a {
